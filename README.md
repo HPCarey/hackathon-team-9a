@@ -1,7 +1,7 @@
 # **A Dubug Cause** : *Hackathon Feb 2023*
 
 ## Project Overview
-A website informing users of fundrasing and charity events in their local community, as well as providing general information about NGOs, fundraising and charities.
+A website informing users of fundraising and charity events in their local community, as well as providing general information about NGOs, fundraising and charities.
 
 ### Deployed link
 Visit the site [here](https://hack-team-9.herokuapp.com/)
@@ -15,50 +15,63 @@ We set up a project and used the kanban board to organise and coordinate tasks.
 
 ## User Stories 
 
+
 1. As a user, I want to land on a homepage that gives me a description of what the site offers and navigaiton.
 
 **Aceptance criteria**:
 - The homepage features a moving collage of NGO and charity related images as well as a short sentence describing the goal of the site. 
+- Featured NGo posts are also displayed.
 
-![Landing page](static/readme/landing-page.PNG)
+![Landing page](static/readme/home-page.png)
 
 - It also features a nav bar which allows user to navigate to other pages like the "About Us" page is they want more information about the site.
+
+![About Us](static/readme/about-us.png)
 - The Navbar for visiting users that are not logged in displays a Login and Sign Up link.
 
 ![Nav bar](static/readme/navbar.png)
 -For logged in users the navbar gives access to the add Ngo page and a logout link
 
-![Nav bar logged in](static/readme/nav-bar-logged-in.PNG)
+![Nav bar logged in](static/readme/navbar-login.png)
+
+- A footer featuring social media link, github links and a short disclaimer is also featured on every page.
+
+![footer](static/readme/footer.png)
 
 
-
-
-![About Us](static/readme/about-us.png)
 
  
 2. As a user I want to be able to view blog posts about NGOs and local charities.
 
-   **Acceptance criteria**: NGO Page
+ **Acceptance criteria**: 
+
+   - The NGO page displays the posts about featured NGOs. Logged in user's have the ability to add their NGO's to this page.
    
-  ![NGO Page](static/readme/NGO-page.png)
+  ![NGO Page](static/readme/ngo-page.png)
 
 3. As a user, I want to be able to register an account so that I can post about my fundraising or charity event.
-   **Acceptance criteria**:  A Sign-up and Login page allows user to register an account.
-![]()
+
+**Acceptance criteria**:  
+- A Sign-up and Login page allows user to register an account.
+   
+![Sign up](static/readme/sign-up.png)
+![Login](static/readme/sign-in-page.png)
+
 
 4. As a user, I want to post about an event I am hosting in order to spread awareness in my community
 
-   **Acceptance criteria**: NGO Page
+**Acceptance criteria**: 
+
+   - The add NGO page is only accessible to logged in users and allows them to add a post about their own NGO.
+
+![Add NGO](static/readme/add-ngo-form.png)
 
 5. As a user I want to know more about how NGOs function and how to get involved.
 
-   **Acceptance criteria** : 
-   - The site features blog posts and search features for users to learn more.
-   ![Blog Post](static/readme/set-up-ngo.PNG)
+**Acceptance criteria** : 
+   - The site features blog posts and search features for users to learn more. 
 
-   -There is also a "How to Set Up an NGO" page for users.
-
-   ![How to set up an NGO](static/readme/set-up-ngo.png)
+![How to set up an NGO](static/readme/set-up-ngo.png)
 
 6. As a user I want to find NGOs based on a specific clause which is important to me.
 
@@ -144,7 +157,7 @@ Wireframes were designed by [Ant](https://github.com/Ant2210) created using figm
 ## Credits
 * Logo and image design was done by [Mia Rasmussen](https://github.com/MiaRasmussen05)
 Project idea took inspiration from the following sources:
-* []() 
+ 
 
 
 
